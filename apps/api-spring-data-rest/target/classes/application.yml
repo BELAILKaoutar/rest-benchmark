@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/benchmark
+    username: rb
+    password: rb
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 20
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus

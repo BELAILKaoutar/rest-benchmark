@@ -1,0 +1,3 @@
+org\rb\ApiSpringRestApplication.class
+org\rb\repositories\ItemRepository.class
+org\rb\repositories\CategoryRepository.class

@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: "spring-mvc"
+    static_configs:
+      - targets: ["host.docker.internal:8081"]
+
+  - job_name: "spring-data-rest"
+    static_configs:
+      - targets: ["host.docker.internal:8082"]
+
+  - job_name: "jersey"
+    static_configs:
+      - targets: ["host.docker.internal:9404"]

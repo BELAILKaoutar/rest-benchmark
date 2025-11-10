@@ -1,0 +1,5 @@
+org\rb\Main.class
+org\rb\dto\ItemDTO.class
+org\rb\resources\CategoryResource.class
+org\rb\JerseyApp.class
+org\rb\resources\ItemResource.class

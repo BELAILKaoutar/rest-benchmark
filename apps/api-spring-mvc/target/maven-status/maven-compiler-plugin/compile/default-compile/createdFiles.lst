@@ -1,0 +1,6 @@
+org\rb\controllers\CategoryController.class
+org\rb\services\ItemService.class
+org\rb\repositories\ItemRepository.class
+org\rb\ApiSpringMvcApplication.class
+org\rb\controllers\ItemController.class
+org\rb\repositories\CategoryRepository.class
